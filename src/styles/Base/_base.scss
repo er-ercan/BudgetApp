@@ -16,3 +16,7 @@ button:disabled {
     cursor: default;
 }
 
+.is-active {
+    color: $off-white;
+    font-weight: bold;
+}
