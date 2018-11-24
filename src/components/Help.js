@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
-const ExpenseHelpPage = () => (
-	<div>
-		Expense Help Page Welcome
-	</div>
-);
+const ExpenseHelpPage = () => <div>Expense Help Page Welcome</div>;
 
 export default ExpenseHelpPage;

@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
-const ExpenseDashboardPage = () => (
-	<div>
-		Dashboard Page
-	</div>
-);
+const ExpenseDashboardPage = () => <div>Dashboard Page</div>;
 
 export default ExpenseDashboardPage;
