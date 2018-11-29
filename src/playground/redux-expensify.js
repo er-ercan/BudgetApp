@@ -106,3 +106,12 @@ const demoState = {
         endDate: undefined
     }
 };
+
+const gok = {
+    name: "Gokay",
+    surnae:"Kaya",
+    age:"32"
+}
+
+
+console.log({...gok})
