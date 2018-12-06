@@ -30,7 +30,7 @@ const requireAuthentication = (WrappedComponent) => {
         <div>
             {props.authControl ? (
                     <WrappedComponent {...props}/>
-            ): (
+            ) : (
                 <p>Please Login view to info</p>
             )}
         
@@ -42,4 +42,4 @@ const AdminInfo = withAdminWarning(Info);
 const AuthInfo = requireAuthentication(Info);
 
 //ReactDOM.render(<AdminInfo isAdmin={false} info='There are details'/>, document.getElementById('app'));
-ReactDOM.render(<AuthInfo authControl={true} info='There are details'/>, document.getElementById('app'));
+ReactDOM.render(<AuthInfo authControl={false} info='There are details'/>, document.getElementById('app'));
