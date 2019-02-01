@@ -1,4 +1,4 @@
-// Higher Order Component (HOC) - A component that renders another coponent
+//Higher Order Component (HOC) - A component that renders another coponent
 //Reuse Code
 //Render hijacking
 //Prop Manipulation
